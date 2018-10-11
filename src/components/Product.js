@@ -27,7 +27,7 @@ Product.defaultProps = {
 Product.propTypes = {
   name: PropTypes.string.isRequired,
   producer: PropTypes.string,
-  hasWatermark: PropTypes.bool,
+  hasWatermark: PropTypes.boolean,
 
   color: PropTypes.arrayOf(PropTypes.string).isRequired,
   weight: PropTypes.objectOf(PropTypes.number).isRequired,
